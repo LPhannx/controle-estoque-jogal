@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd4af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.logo-superior {
+    position: static; 
+    display: block; 
+    margin: 0 auto 10px auto;
+    width: 120px; 
+    height: auto;
+    z-index: 10;
+}
+
+
+.container {
+    background-color: #ffad4a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 15px 15px 75px #8d602871;
+    width: 100%;
+    max-width: 420px;
+}
+
+
+h2, h3 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    flex-grow: 1; 
+    margin: 0 5px;
+}
+
+
+.add {
+    background-color: #1f9c3c; 
+    color: white;
+}
+
+
+.remove {
+    background-color: #ed1926;
+    color: white;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+.estoque-box {
+    border-top: 1px solid #000000;
+    padding-top: 15px;
+}
+
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#lista li {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}

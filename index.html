@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Controle de Estoque</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="container">
+<img src="logo/jogal.png" alt="Logo do Estoque" class="logo-superior">
+<h2>Controle de Estoque</h2>
+<label>Nome do produto:</label>
+<input type="text" id="produto" placeholder="Nome" />
+
+
+<label>Quantidade a adicionar:</label>
+<input type="number" id="quantidade" placeholder="Ex: 10" />
+
+
+<div class="btns">
+<button class="add" onclick="adicionar()">Adicionar</button>
+<button class="remove" onclick="remover()">Remover</button>
+</div>
+
+
+<div class="estoque-box">
+<h3>Estoque Atual</h3>
+<ul id="lista"></ul>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
